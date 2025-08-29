@@ -26,7 +26,7 @@ df = load_data()
 # =====================================
 # Dashboard Title & Intro
 # =====================================
-st.title("🏥 Hospital Data Management Dashboard")
+st.title(" Hospital Data Management Dashboard")
 st.markdown("""
 This dashboard was created as part of **Technical Programming Assessment 4**.  
 It provides an overview of the hospital dataset and compares machine learning models (Decision Tree & Random Forest) used to predict patient appointment outcomes.
@@ -137,4 +137,5 @@ st.markdown("""
 - Label encoding was applied to categorical features for model training, but values were decoded back for better readability in this dashboard.  
 
 """)
+
 
