@@ -135,5 +135,6 @@ st.markdown("""
 - This dashboard provided an overview of hospital appointment data, key visualizations, and machine learning results.  
 - **Decision Tree (69% accuracy)** performed better than **Random Forest (62% accuracy)**.  
 - Label encoding was applied to categorical features for model training, but values were decoded back for better readability in this dashboard.  
-- Future improvements may include feature engineering and hyperparameter tuning to boost accuracy.
+
 """)
+
